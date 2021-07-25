@@ -1,11 +1,12 @@
-import {Counter, BadCounter, TextInput} from './components';
+import {Counter, BadCounter, TextInput, ToggleButton} from './components';
 
 function App() {
   return (
     <div>
       {/* <TextInput/> */}
-      <Counter/>
+      {/* <Counter/> */}
       {/* <BadCounter/> */}
+      <ToggleButton/>
     </div>
   );
 }
