@@ -1,10 +1,11 @@
-import TextInput from './components/TextInput';
-// import './App.css';
+import {Counter, BadCounter, TextInput} from './components';
 
 function App() {
   return (
     <div>
-      <TextInput/>
+      {/* <TextInput/> */}
+      <Counter/>
+      {/* <BadCounter/> */}
     </div>
   );
 }
